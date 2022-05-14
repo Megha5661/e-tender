@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    background: rgb(226, 223, 223);
+    width: 100vw;
+    height: 900px;
+    /* border: 1px solid black; */
+}
+
+.header {
+    background: url("Images/cover.jpg") no-repeat;
+    width: 1200px;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+}
+
+.logo {
+    float: left;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    margin-top: 20px;
+    padding-left: 40px;
+}
+
+.menuitems li {
+    border-right: 1px solid rgb(82, 32, 45);
+    margin-right: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.content {
+    width: 550px;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(27, 156, 165);
+}
+
+.content h3 {
+    margin-top: 20px;
+    margin-left: 90px;
+    padding-left: 30px;
+}
+
+.opac {
+    width: 100%;
+    background: url("Images/cover.jpg") no-repeat;
+}
+
+.forms {
+    margin: auto;
+    display: border-box;
+    width: 700px;
+    text-align: center;
+    padding-right: 100px;
+    /* height: 640px; */
+    margin-top: 40px;
+    background: url("Images/uplogo2.png") no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+table {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.footer {
+    background: rgba(34, 33, 33, 0.7);
+    width: 100vw;
+    height: 70px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    background: rgb(226, 223, 223);
+    width: 100vw;
+    height: 1035px;
+    border: 1px solid black;
+}
+
+.header {
+    background: url("Images/cover.jpg") no-repeat;
+    width: 1200px;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+}
+
+.logo {
+    float: left;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    margin-top: 20px;
+    padding-left: 40px;
+}
+
+.menuitems li {
+    border-right: 1px solid rgb(82, 32, 45);
+    margin-right: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.content {
+    width: 550px;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(27, 156, 165);
+}
+
+.content h3 {
+    margin-top: 20px;
+    margin-left: 90px;
+    padding-left: 30px;
+}
+
+.opac {
+    width: 100%;
+    background: url("Images/cover.jpg") no-repeat;
+}
+
+.forms {
+    margin: auto;
+    width: 700px;
+    text-align: center;
+    padding-right: 100px;
+    height: 780px;
+    margin-top: 40px;
+    background: url("Images/uplogo2.png") no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-left: 240px;
+}
+
+.tableout table {
+    border-radius: 25px;
+    box-shadow: 4px 4px 15px black;
+}
+
+table {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.footer {
+    background: rgba(34, 33, 33, 0.7);
+    width: 100vw;
+    height: 70px;
+    margin-top: 45px;
+    padding-top: 25px;
+    box-sizing: border-box;
+}
+
+input {
+    border: 1px solid black;
+    border-radius: 25px;
+    /* background-color: rgb(97, 93, 93); */
+    height: 25px;
+    padding-left: 10px;
+}
+
+input[type="button"] {
+    cursor: pointer;
+    width: 60px;
+}
+
+#pname {
+    width: 150px;
+}
+
+textarea {
+    padding: 10px;
+    border-radius: 25px;
+    resize: none;
+}
+
+.nava {
+    text-decoration: none;
+    color: rgb(179, 255, 0);
+    transition: 0.4s;
+}
+
+.menu .nava:hover {
+    background-color: rgb(179, 255, 0);
+    color: rgb(64, 68, 54);
+    text-decoration: underline;
+}
